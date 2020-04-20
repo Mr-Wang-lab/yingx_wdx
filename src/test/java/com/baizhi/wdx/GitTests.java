@@ -25,7 +25,7 @@ public class GitTests<pvsm> {
 
    }
    @Test
-   public void testqueryss() {
+   public void testquerys() {
       int a =10;
       int b = 30;
       int c = a+b;
