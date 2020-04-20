@@ -1,0 +1,23 @@
+{
+  "records": "9",
+  "total": "3",
+  "page": "1",
+  "rows": [
+    {
+      "id": "1",
+      "cateName": "程序",
+      "levels": "1",
+      "parentId": null
+    },{
+      "id": "2",
+      "cateName": "语言",
+      "levels": "1",
+      "parentId": null
+    },{
+      "id": "3",
+      "cateName": "学习",
+      "levels": "1",
+      "parentId": null
+    }
+  ]
+}

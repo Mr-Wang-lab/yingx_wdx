@@ -1,0 +1,23 @@
+{
+  "records": "9",
+  "total": "3",
+  "page": "1",
+  "rows": [
+    {
+      "id": "11",
+      "cateName": "JAVA",
+      "levels": "2",
+      "parentId": "1"
+    },{
+      "id": "12",
+      "cateName": "Go",
+      "levels": "2",
+      "parentId": "1"
+    },{
+      "id": "13",
+      "cateName": "PHP",
+      "levels": "1",
+      "parentId": "1"
+    }
+  ]
+}

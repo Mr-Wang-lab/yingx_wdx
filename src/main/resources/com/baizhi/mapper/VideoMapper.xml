@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baizhi.wdx.dao.VideoMapper">
+
+    <sql id="querySql">
+        c.cate_name cateName,
+        v.id id,v.title vTitle,v.brief vBrief,v.path vPath,v.cover vCover,v.publish_date vPublishDate,
+        u.head_img headImg
+    </sql>
+
+    <!--查询视频信息按时间排序-类别表 视频表 用户表  -->
+    <select id="queryByReleaseTime" resultType="com.baizhi.wdx.po.VideoPo">
+        select <include refid="querySql" />
+        from yx_category c
+        right join yx_video v on c.id=v.category_id
+        left join yx_user u on v.user_id=u.id
+        order by v.publish_date desc
+    </select>
+</mapper>

@@ -1,0 +1,35 @@
+{
+  "total": "3",
+  "records": "9",
+  "page": "1",
+  "rows": [
+    {
+      "id": "1",
+      "username": "小蛋黄",
+      "phone": "1234567896",
+      "headImg": "pic1.jpg",
+      "sign": "这是一个好同志",
+      "wechat": "123456789",
+      "status": "1",
+      "createDate": "2012-12-12"
+    },{
+      "id": "2",
+      "username": "小蛋黄2",
+      "phone": "1234567896",
+      "headImg": "pic2.jpg",
+      "sign": "这是一个好同志",
+      "wechat": "123456789",
+      "status": "0",
+      "createDate": "2012-12-12"
+    },{
+      "id": "3",
+      "username": "小蛋黄3",
+      "phone": "1234567896",
+      "headImg": "pic3.jpg",
+      "sign": "这是一个好同志",
+      "wechat": "123456789",
+      "status": "1",
+      "createDate": "2012-12-12"
+    }
+  ]
+}
